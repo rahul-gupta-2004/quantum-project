@@ -38,7 +38,9 @@ A hands-on project demonstrating quantum computing principles through interactiv
 ## Technologies Used
 
 ![Python](https://img.shields.io/badge/python-3.10.12-blue?style=flat-square)
+
 ![Streamlit](https://img.shields.io/badge/streamlit-1.38.0-FF4B4B?style=flat-square)
+
 ![Qiskit](https://img.shields.io/badge/qiskit-2.0.0-6929C4?style=flat-square)
 
 **Framework & Libraries:**
@@ -65,8 +67,20 @@ quantum-tic-tac-toe/
 ## Installation
 
 1. Create and activate a virtual environment:
-   ```bash
+
+   ```
    python -m venv venv
    source venv/bin/activate  # Linux/Mac
    venv\Scripts\activate    # Windows
    ```
+2. Install dependencies:
+
+    ```
+    pip install -r requirements.txt
+    ```
+
+3. Run the application:
+
+    ```
+    streamlit run app.py
+    ```
