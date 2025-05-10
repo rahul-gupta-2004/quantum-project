@@ -4,7 +4,9 @@
 A hands-on project demonstrating quantum computing principles through interactive games and simulations.
 
 
-[View Live Demo]((https://quantum-project.streamlit.app)
+[View Live Demo](https://quantum-project.streamlit.app)
+
+
 
 ---
 
