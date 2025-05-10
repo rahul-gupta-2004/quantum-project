@@ -1,8 +1,11 @@
 # Quantum Tic Tac Toe & Quantum Computing Demos
 
+
 A hands-on project demonstrating quantum computing principles through interactive games and simulations.
 
+
 [View Live Demo](https://www.google.com)
+
 
 ## Features
 
@@ -11,6 +14,7 @@ A hands-on project demonstrating quantum computing principles through interactiv
 * Quantum Circuit Builder: Create and test quantum circuits with different gates
 * Superposition & Entanglement: Interactive demonstrations of key quantum concepts
 * Quantum Cryptography: Simulate the BB84 protocol for secure key exchange
+
 
 ## Quick Start
 
@@ -30,8 +34,22 @@ A hands-on project demonstrating quantum computing principles through interactiv
     streamlit run app.py
     ```
 
+
+## Technologies Used
+
+![Python](https://img.shields.io/badge/python-3.10.12-blue?style=flat-square)
+![Streamlit](https://img.shields.io/badge/streamlit-1.38.0-FF4B4B?style=flat-square)
+![Qiskit](https://img.shields.io/badge/qiskit-2.0.0-6929C4?style=flat-square)
+
+**Framework & Libraries:**
+- [NumPy](https://numpy.org/) - Scientific computing
+- [Matplotlib](https://matplotlib.org/) - Visualization
+- [Pandas](https://pandas.pydata.org/) - Data analysis
+
+
 ## Project Structure
 
+```
 quantum-tic-tac-toe/
 ├── app.py                     # Main application
 ├── game.py                    # Quantum Tic Tac Toe logic
@@ -42,9 +60,13 @@ quantum-tic-tac-toe/
 ├── superpostion_entanglement.py # Quantum principles demo
 ├── quantum_cryptography_qkd.py # Cryptography demo
 └── requirements.txt           # Dependencies
+```
 
-## Technologies Used
+## Installation
 
-* Python
-* Streamlit (for web interface)
-* Qiskit (for quantum computing)
+1. Create and activate a virtual environment:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # Linux/Mac
+   venv\Scripts\activate    # Windows
+   ```
