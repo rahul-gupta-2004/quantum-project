@@ -6,6 +6,7 @@ A hands-on project demonstrating quantum computing principles through interactiv
 
 [View Live Demo](https://www.google.com)
 
+---
 
 ## Features
 
@@ -15,6 +16,7 @@ A hands-on project demonstrating quantum computing principles through interactiv
 * Superposition & Entanglement: Interactive demonstrations of key quantum concepts
 * Quantum Cryptography: Simulate the BB84 protocol for secure key exchange
 
+---
 
 ## Quick Start
 
@@ -34,13 +36,12 @@ A hands-on project demonstrating quantum computing principles through interactiv
     streamlit run app.py
     ```
 
+---
 
 ## Technologies Used
 
 ![Python](https://img.shields.io/badge/python-3.10.12-blue?style=flat-square)
-
 ![Streamlit](https://img.shields.io/badge/streamlit-1.38.0-FF4B4B?style=flat-square)
-
 ![Qiskit](https://img.shields.io/badge/qiskit-2.0.0-6929C4?style=flat-square)
 
 **Framework & Libraries:**
@@ -48,6 +49,7 @@ A hands-on project demonstrating quantum computing principles through interactiv
 - [Matplotlib](https://matplotlib.org/) - Visualization
 - [Pandas](https://pandas.pydata.org/) - Data analysis
 
+---
 
 ## Project Structure
 
@@ -63,6 +65,7 @@ quantum-tic-tac-toe/
 ├── quantum_cryptography_qkd.py # Cryptography demo
 └── requirements.txt           # Dependencies
 ```
+---
 
 ## Installation
 
